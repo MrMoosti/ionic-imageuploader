@@ -5,5 +5,12 @@
 </ion-header>
 
 <ion-content>
+  <ion-list>
+    <ion-item *ngFor="let image of images">
+      <ion-label>{{ image.name }}</ion-label>
+    </ion-item>
+  </ion-list>
+  <p class="ion-text-center" *ngIf="images.length <= 0">You haven't taken any pictures yet!</p>
   {{url}}
+  <ion-button color="primary" (click)="showCamera()">SELECT IMAGE</ion-button>
 </ion-content>
