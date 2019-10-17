@@ -1,0 +1,44 @@
+.row > div {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.row > div:nth-child(2) {
+  border-left: 1px solid rgba(0,0,0,.125);
+}
+
+.qr {
+    width: calc(75% + 2px);
+    margin: auto;
+}
+
+.qr > img {
+  width: 100%;
+  height: 100%;
+}
+
+#images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#images > .card {
+    width: 200px;
+	margin: 5px;
+}
+
+#images > .card img {
+    height: 198px;
+    width: 198px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+#images > .card .btn {
+    width: 100%;
+}
+
+#images > .card .btn-primary {
+    margin-bottom: 5px;
+}
