@@ -5,7 +5,7 @@ import { QrscannerService } from '../qrscanner.service';
 import { Image } from '../image';
 import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 import { WebView } from '@ionic-native/ionic-webview/ngx';
-import { File } from '@ionic-native/file/ngx';
+import { File, FileEntry } from '@ionic-native/file/ngx';
 
 @Component({
   selector: 'app-images',
