@@ -1,6 +1,3 @@
-# ionic-imageuploader
-An Ionic app where u can scan a QR Code and upload images, this comes with the website where there images will be shown.
-
 <h1  align="center">Ionic Imageuploader</h1>
 
 **Ionic Imageuploader** is an application made by a student. It is open source and free. It's made in PHP and Angular(Ionic). The application consists of a webserver made in PHP and a mobile application made in ionic. You scan the QR code on your website with your phone. Once you have done this you can take a picture and upload these pictures to your website, the website will display newely uploaded images.
