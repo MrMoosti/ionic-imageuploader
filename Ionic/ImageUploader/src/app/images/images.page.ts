@@ -83,10 +83,8 @@ export class ImagesPage implements OnInit {
           }).then(response => {
             return response.json();
           }).then(data => {
-            console.log(this.images);
             this.deleteImage(img.id);
             this.updateImages();
-            console.log(this.images);
           });
         };
         reader.readAsArrayBuffer(file);

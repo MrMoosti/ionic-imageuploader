@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>images</ion-title>
+    <ion-title>Images</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -16,6 +16,5 @@
     </ion-item>
   </ion-list>
   <p class="ion-text-center" *ngIf="images.length <= 0">You haven't taken any pictures yet!</p>
-  {{url}}
-  <ion-button color="primary" (click)="showCamera()">SELECT IMAGE</ion-button>
+  <ion-button style="display: block; margin: 0 auto; max-width: 250px;" color="primary" (click)="showCamera()">SELECT IMAGE</ion-button>
 </ion-content>
